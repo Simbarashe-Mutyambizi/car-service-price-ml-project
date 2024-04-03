@@ -15,12 +15,10 @@ log_structure=f"{datetime.now().strftime('%m_%d_%Y_%H_%M_%S')}.log"
 log_file_path=os.path.join(os.getcwd(),"logs",log_structure)
 os.makedirs(log_file_path,exist_ok=True)
 
-
+log_file_paths=os.path.join(log_file_path,log_structure)
 
 logging.basicConfig(
-    filename=log_file_path,
+    filename=log_file_paths,
     format="[ %(asctime)s ] %(lineno)d %(name)s - %(levelname)s - %(message)s",
     level=logging.INFO,
-
-
 )

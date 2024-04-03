@@ -1,4 +1,5 @@
 pandas
+pymongo
 numpy
 seaborn
 matplotlib
@@ -10,5 +11,4 @@ dill
 dash
 dash-bootstrap-components
 plotly
-
 -e .

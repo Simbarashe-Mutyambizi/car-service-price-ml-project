@@ -6,6 +6,7 @@ Created on Wed Apr  3 11:55:05 2024
 """
 
 import sys
+from src.logger import logging
 
 #creation of error that grabs the error and error details 
 def get_error_details(error,error_detail:sys):
