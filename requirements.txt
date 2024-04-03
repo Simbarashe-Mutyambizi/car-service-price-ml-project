@@ -1,0 +1,14 @@
+pandas
+numpy
+seaborn
+matplotlib
+scikit-learn
+catboost
+xgboost
+Flask
+dill
+dash
+dash-bootstrap-components
+plotly
+
+-e .
