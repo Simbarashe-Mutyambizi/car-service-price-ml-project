@@ -9,6 +9,8 @@ from setuptools import find_packages, setup
 from typing import List
 
 #this file creates the cursor for manuevoring through the files as packages
+hypen='-e .'
+
 HYPEN_E_DOT='-e .'
 def get_requirements(file_path:str)->List[str]:
     '''
@@ -24,7 +26,6 @@ def get_requirements(file_path:str)->List[str]:
     
     return requirements
 
-    
     
     
 setup(
