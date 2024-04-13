@@ -16,7 +16,7 @@ import sys
 
 class DataIngestion:
     def __init__(self):
-        self.connection_string="mongodb+srv://simbarashewilliammutyambizi:XGM78EHOhzC3EyXY@cluster0.0dpurw7.mongodb.net/?retryWrites=true&w=majority"
+        self.connection_string="place your MongoDB connection string"
         
     def DataIngestor(self):
         logging.info("Loading data from cloud database and cleaning")
